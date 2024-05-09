@@ -1,0 +1,191 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    display: flex;
+    place-content: center;
+    background-color: #F5F5F5;
+    width: 1500px;
+    height: 900px;
+    margin-top: 50px;
+    font-family: Arial, sans serif;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    background-color: #ffffff;
+    height: 600px;
+    width: 800px;
+    border-radius: 15px;
+}
+.left {
+    position: relative;
+    width:40%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    margin: 70px 40px;
+}
+.left .hight{
+    display: flex;
+    flex-direction: column;
+}
+.left .hight .title-in {
+    font-size: 30px;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+.left .hight .title-up {
+    font-size: 30px;
+    font-weight: 900;
+    margin-bottom: 40px;
+}
+.left .hight .soft-title-in {
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 30px;
+
+}
+.left #form-in {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 300px;
+}
+.left #form-in .soft-title-in {
+    font-size: 14px;
+}
+.left #form-in .wanna-reset {
+    display: flex;
+    justify-content: space-between;
+    max-width: 300px;
+}
+.left #form-in .wanna-reset a {
+    color: #0F3DDE;
+    text-decoration: none;
+}
+.left #form-in input {
+    width:300px;
+    color: #ccc;
+    border: 1px solid #ccc;
+    height: 15px;
+    font-size: 10px;
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 30px;
+}
+.left #form-in input:hover{
+    background-color: rgb(247, 243, 243);
+}
+.left #form-in .soft-title-label {
+    font-size: 10px;
+    font-weight: normal;
+    margin-bottom: 0;
+}
+.left #form-in .soft-title-label input{
+    height: 10px;
+    width: 14px;
+    margin-right: 3px;
+}
+.left #form-in .soft-title-label-up {
+    font-size: 10px;
+    font-weight: normal;
+    margin-bottom: 0;
+}
+.left #form-in .soft-title-label-up input{
+    height: 10px;
+    width: 14px;
+    margin-right: 3px;
+    border: 1px solid black;
+}
+.left #form-in .soft-title-label-up a{
+    color: black;
+}
+.left #form-in button {
+    max-width: 400px;
+    width: 315px;
+    background-color: #3A5B22;
+    color: white;
+    border: none;
+    height: 25px;
+    font-size: 12px;
+    border-radius: 8px;
+    align-items: center;
+}
+.left .separator {
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+    max-width: 100%;
+    margin: 40px 0px 40px 0px;
+}
+.separator::before, .separator::after {
+    flex: 1;
+    content: '';
+    padding: 1px;
+    background-color: #ccc;
+    margin:4px; 
+}
+.left .others {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 400px;
+}
+.left .logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #ccc;
+    width: 400px;
+    font-size: 1px;
+    padding: 0px 4px;
+    margin: 10px;
+    border-radius: 5px;
+    max-height: 15px;
+}
+.logo a{
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+}
+.logo img{
+    height: 15px;
+    max-width: 100%;
+    width: 15px;
+}
+.left .redirect-up {
+    display: flex;
+    max-width: 400px;
+    margin: 10px 10px;
+    font-size: 13px;
+    height: 20px;
+    margin-left: 60px;
+}
+.left .redirect-up a {
+    margin-left: 10px;
+    text-decoration: none;
+    color: #0F3DDE;
+}
+.right {
+    display: flex;
+    width: 50%;
+    background-size: cover;
+    background-position: center;
+    background: url('image.png');
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    bottom: 3px;
+    border-top-left-radius: 15px;
+    left: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.right img {
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 5px;
+}
