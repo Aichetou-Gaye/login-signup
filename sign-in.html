@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    
+</head>
+<body>
+    <div class="container">
+        <section class="left">
+            <div class="hight">
+                <h1 class="title-in">Welcome back!</h1>
+
+                <h4 class="soft-title-in">Enter your credentials to access your account</h4>
+            </div>
+            <form id="form-in" action="">
+                <label for="email" class="soft-title-in">Email address</label>
+                <input type="email" name="adresse-mail" id="email" placeholder="Enter your email" required/>
+
+                <div class="wanna-reset">
+                    <label for="passwd" class="soft-title-in">Password</label>
+                    <a href="#" class="soft-title-in reset">Forgot password</a>
+                </div>
+                <input type="password" name="password" id="passwd" placeholder="Enter your password" required/>
+
+                <label for="remember" class="soft-title-label"><input type="checkbox" name="remember" id="remember" class="checkbox">Remember to 30 days</label>
+
+                <button type="submit">Login</button>
+            </form>
+
+            <div class="separator">Or</div>
+
+            <section class="others">
+                <div class="logo">
+                    <img src="google.svg" alt="Logo google">
+                    <a href="https://www.google.com/">Sign in with Google</a>
+                </div>
+
+                <div class="logo">
+                    <img src="apple.svg" alt="Logo Apple">
+                    <a href="https://www.apple.com/">Sign in with Apple</a>
+                </div>
+            </section>
+
+            <section class="redirect-up">
+                <p>Don't have an account?</p>
+                <a href="sign-up.html">Sign Up</a>
+            </section>
+
+        </section> 
+
+        <section class="right">
+            <img src="image.png" alt="image">
+        </section>
+    </div> 
+
+</body>
+</html>
