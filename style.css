@@ -88,6 +88,7 @@ body {
     height: 10px;
     width: 14px;
     margin-right: 3px;
+    accent-color: #3A5B22;
 }
 .left #form-in .soft-title-label-up {
     font-size: 10px;
@@ -99,6 +100,7 @@ body {
     width: 14px;
     margin-right: 3px;
     border: 1px solid black;
+    accent-color: #3A5B22;
 }
 .left #form-in .soft-title-label-up a{
     color: black;
@@ -119,7 +121,7 @@ body {
     display: flex;
     align-items: center;
     max-width: 100%;
-    margin: 40px 0px 40px 0px;
+    margin: 30px 0px 30px 0px;
 }
 .separator::before, .separator::after {
     flex: 1;
@@ -171,21 +173,11 @@ body {
 }
 .right {
     display: flex;
-    width: 50%;
-    background-size: cover;
-    background-position: center;
-    background: url('image.png');
-    background-size: cover;
-    position: absolute;
-    top: 0px;
-    bottom: 3px;
-    border-top-left-radius: 15px;
     left: 50%;
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 .right img {
     width: 100%;
-    height: 100%;
-    border-top-left-radius: 5px;
+    height: 600px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
 }
