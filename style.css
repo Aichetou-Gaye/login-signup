@@ -6,15 +6,17 @@ body {
     display: flex;
     place-content: center;
     background-color: #F5F5F5;
-    width: 1500px;
-    height: 900px;
+    height: 600px;
     margin-top: 50px;
     font-family: Arial, sans serif;
 }
 .container {
     display: flex;
     justify-content: space-between;
-    position: relative;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
     background-color: #ffffff;
     height: 600px;
     width: 800px;
