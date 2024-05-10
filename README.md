@@ -10,7 +10,7 @@ Si l'utilisateur n'a pas de compte alors il a la possibilité d'en créer un.
 
 ## Exigences
 
-Ce projet nécessite des compétences en HTML/CSS Flexbox/JS/GIT/GITHUB.
+Ce projet nécessite des compétences en HTML/CSS Flexbox/GIT/GITHUB.
 
 ## Réalisation
 
